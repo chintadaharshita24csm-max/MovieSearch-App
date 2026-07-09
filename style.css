@@ -4,65 +4,47 @@
     box-sizing:border-box;
     font-family:Arial,sans-serif;
 }
-
 body{
+    background:#1e1e2f;
     display:flex;
     justify-content:center;
     align-items:center;
     height:100vh;
-    background:linear-gradient(135deg,#141E30,#243B55);
 }
-
 .container{
-    width:400px;
+    width:350px;
     background:#fff;
-    padding:25px;
-    border-radius:15px;
+    padding:20px;
+    border-radius:10px;
     text-align:center;
-    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    box-shadow:0 4px 10px
+rgba(0,0,0,0.3);
 }
-
-h1{
+h1 {
     margin-bottom:20px;
+    color:#333;
 }
-
-input{
+input {
     width:100%;
     padding:10px;
-    margin-bottom:10px;
-    border:2px solid #ccc;
-    border-radius:8px;
-}
-
-button{
-    width:100%;
-    padding:10px;
-    background:#007BFF;
-    color:white;
-    border:none;
-    border-radius:8px;
-    cursor:pointer;
+    margin-bottom10px;
+    border:1px solid #ccc;
+    border-radius:5px;
     font-size:16px;
 }
-
-button:hover{
+button {
     background:#0056b3;
 }
-
-#movieResult{
-    margin-top:20px;
-}
-
-img{
+#result img{
     width:200px;
     border-radius:10px;
     margin-bottom:15px;
 }
-
-h2{
-    margin:10px 0;
+#result h2{
+    color:#333;
+    margin-bottom:10px;
 }
-
-p{
-    margin:5px 0;
+#result p{
+    margin:8px 0;
+    color:#555;
 }
